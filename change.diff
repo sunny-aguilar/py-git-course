@@ -1,0 +1,9 @@
+--- diff_me	2020-03-23 21:44:55.000000000 -0700
++++ diff_me_2	2020-03-23 21:44:48.000000000 -0700
+@@ -3,3 +3,6 @@
+ 
+ The filed to be compared to this one will have different
+ text starting on line 6.
++
++[This is the new text that is not included in the file
++"diff_me]
