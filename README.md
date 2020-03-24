@@ -17,4 +17,4 @@ The following is a list of files that and their purpose:
 - **diff_me_2:** used to test the diff linux command
 - **cpu_usage.py:** used to test diff command
 - **cpu_usage_edit.py:** used to see edits made to original file
-- **cpu_usage.diff:** diff file (patch file) created using diff to highligh differences
+- **cpu_usage.diff:** diff file (patch file) created using diff to highlight differences
