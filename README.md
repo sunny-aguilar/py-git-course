@@ -12,4 +12,5 @@ certification  **Google IT Automation with Python**.
 
 ## Files
 The following is a list of files that and their purpose:
-
+- diff_me: used to test the diff linux command
+- diff_me_2: used to test the diff linux command
