@@ -11,7 +11,5 @@ This course is part of a series of courses to earn the the
 certification  **Google IT Automation with Python**.
 
 ## Files
-
-
-And this will produce a flow chart:
+The following is a list of files that and their purpose:
 
