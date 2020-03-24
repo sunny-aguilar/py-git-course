@@ -1,0 +1,6 @@
+The diff command can be used to compare two files with one another
+and spot the differences.
+
+Command syntax:
+diff <file 1> <file 2>
+
