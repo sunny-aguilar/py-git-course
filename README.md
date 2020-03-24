@@ -7,6 +7,6 @@ file to organize it somewhat.
 Coursera course:
 > Introduction to Git and Github
 This course is part of a series of courses to earn the the Google
-certificate **IT Automation with Python
+certificate **IT Automation with Python**
 
 ## Files
