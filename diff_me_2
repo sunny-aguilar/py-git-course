@@ -1,0 +1,8 @@
+This file contains some text that will be modified to compare
+and contrast to file "diff_me_2" using the diff command.
+
+The filed to be compared to this one will have different
+text starting on line 6.
+
+[This is the new text that is not included in the file
+"diff_me]
