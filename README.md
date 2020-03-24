@@ -11,3 +11,14 @@ This course is part of a series of courses to earn the the
 certification  **Google IT Automation with Python**.
 
 ## Files
+
+
+And this will produce a flow chart:
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
