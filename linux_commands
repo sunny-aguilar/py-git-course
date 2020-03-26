@@ -37,5 +37,5 @@ To patch a file, you need the diff command, the file to be fixed
 and a diff file
 
 Syntax:
-diff disk_usage.py
+diff disk_usage.py < diff.file
 
