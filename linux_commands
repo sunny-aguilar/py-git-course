@@ -34,5 +34,8 @@ Sandros-MBP:py-git-course sandroaguilar$ diff -u diff_me diff_me_2
 
 # patch a file with <diff> command:
 To patch a file, you need the diff command, the file to be fixed
+and a diff file
+
+Syntax:
 
 
