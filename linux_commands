@@ -32,5 +32,6 @@ Sandros-MBP:py-git-course sandroaguilar$ diff -u diff_me diff_me_2
 +"diff_me]
 
 
-
+# patch a file with <diff> command:
+To patch a file, you need the diff command
 
