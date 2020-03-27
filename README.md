@@ -52,5 +52,6 @@ The following is a list of files and their purpose:
 ### Undoing Things
 > git restore <file>
 - discards changes in working directory
+- -p flag: allows you to review each change
 
 
