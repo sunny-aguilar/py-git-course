@@ -7,7 +7,7 @@ def check_reboot():
 
 def main():
     if check_reboot():
-        print()
+        print("Pending Reboot.")
 
 main()
 
