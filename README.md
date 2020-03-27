@@ -50,7 +50,7 @@ The following is a list of files and their purpose:
 - renames file1 to file1
 
 ### Undoing Things
-
-
+> git restore <file>
+- discards changes in working directory
 
 
