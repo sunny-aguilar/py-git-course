@@ -57,3 +57,9 @@ The following is a list of files and their purpose:
 > git reset
 - removes staged files that you don't intend to commit
 
+> git commit --ammend
+- takes whatever is currently in the staging area and overwrite the previous commit
+
+
+
+
