@@ -43,5 +43,13 @@ The following is a list of files and their purpose:
 > git add -p
 - see changes to commit
 
+> git rm <file>
+- untracks and removes files from git
+
+> git mv <file1> <file2>
+- renames file1 to file1
+
+
+
 
 
