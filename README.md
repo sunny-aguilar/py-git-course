@@ -60,7 +60,7 @@ The following is a list of files and their purpose:
 > git commit --ammend
 - takes whatever is currently in the staging area and overwrite the previous commit
 
-> git revert
-- undoes a prior commit while keeping history of the commits in the project
+> git revert HEAD
+- undoes a prior commit while keeping history of the commits in the project; in other words, it creates a new commit with inverse changes.
 
 
