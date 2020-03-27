@@ -54,4 +54,6 @@ The following is a list of files and their purpose:
 - discards changes in working directory
 - -p flag: allows you to review each change
 
+> git reset
+- removes staged files that you don't intend to commit
 
