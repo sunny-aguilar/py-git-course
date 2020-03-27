@@ -28,6 +28,9 @@ The following is a list of files and their purpose:
 - view commits
 - -p flag: see specific changes made in commits
 - --stat see meta info on commits
-
-
+> git commit
+- commits a message
+- -m flag: allows you to enter a message with the command "message"
+- -a flag: stages files (but not new files)
+- example: git commit -am "message>
 
