@@ -19,7 +19,7 @@ The following is a list of files that and their purpose:
 - **cpu_usage_edit.py:** used to see edits made to original file
 - **cpu_usage.diff:** diff file (patch file) created using diff to highlight differences
 
-
+## Git Commands
 
 
 
