@@ -11,7 +11,7 @@ This course is part of a series of courses to earn the the
 certification  **Google IT Automation with Python**.
 
 ## Files
-The following is a list of files that and their purpose:
+The following is a list of files and their purpose:
 - **u:** bash script to automate git and compilation commands
 - **diff_me:** used to test the diff linux command
 - **diff_me_2:** used to test the diff linux command
@@ -20,6 +20,7 @@ The following is a list of files that and their purpose:
 - **cpu_usage.diff:** diff file (patch file) created using diff to highlight differences
 
 ## Git Commands
+> git diff
 
 
 
