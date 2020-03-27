@@ -20,8 +20,8 @@ The following is a list of files and their purpose:
 - **cpu_usage.diff:** diff file (patch file) created using diff to highlight differences
 
 ## Git Commands
-> git diff
-
+> git diff <file>
+Use this command to see changes in a file
 
 
 
