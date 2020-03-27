@@ -62,5 +62,10 @@ The following is a list of files and their purpose:
 
 > git revert HEAD
 - undoes a prior commit while keeping history of the commits in the project; in other words, it creates a new commit with inverse changes.
+- this only does the last commit made
+
+> git revert <commit id>
+- undoes a prior commit that wasnt the previous one
+- enter the 40 char alphanumeric string of the commit ID you want to revert to
 
 
