@@ -49,6 +49,7 @@ The following is a list of files and their purpose:
 > git mv <file1> <file2>
 - renames file1 to file1
 
+### Undoing Things
 
 
 
