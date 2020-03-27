@@ -24,6 +24,7 @@ The following is a list of files and their purpose:
 - Use this command to see changes in a file
 - ++ shows new additions
 - -- shows replacements/removal
+- --staged flag: shows staged differences
 
 > git log
 - view commits
@@ -35,4 +36,10 @@ The following is a list of files and their purpose:
 - -m flag: allows you to enter a message with the command "message"
 - -a flag: stages files (but not new files)
 - example: git commit -am "message>
+> git show <commit id>
+- show specific commits
+> git add -p
+- see changes to commit
+
+
 
