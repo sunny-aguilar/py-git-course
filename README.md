@@ -22,7 +22,13 @@ The following is a list of files and their purpose:
 ## Git Commands
 > git diff <file>
 
-Use this command to see changes in a file
+- Use this command to see changes in a file
+- ++ shows new additions
+- -- shows replacements/removal
+> git log
+- view commits
+- -p flag: see specific changes made in commits
+- --stat see meta info on commits
 
 
 
