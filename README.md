@@ -72,6 +72,6 @@ The following is a list of files and their purpose:
 > git branch <branch-name>
 - creates a new branch
 
-
-
+> git checkout <branch-name>
+- change over to the new branch
 
