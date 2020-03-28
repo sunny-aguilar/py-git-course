@@ -24,7 +24,7 @@ The following is a list of files and their purpose:
 - set your name to associate with commits
 
 > git config --global user.email "<email>"
-
+- set your email to associate with commits
 
 > git diff <file>
 - Use this command to see changes in a file
