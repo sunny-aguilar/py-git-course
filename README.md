@@ -69,7 +69,8 @@ The following is a list of files and their purpose:
 - enter the 40 char alphanumeric string of the commit ID you want to revert to
 
 ## Branching
-
+> git branch <branch-name>
+- creates a new branch
 
 
 
