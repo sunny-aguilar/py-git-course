@@ -21,7 +21,9 @@ The following is a list of files and their purpose:
 
 ## Git Commands
 > git config --global user.name "<name>"
-- 
+- set your name to associate with commits
+
+>
 
 > git diff <file>
 - Use this command to see changes in a file
