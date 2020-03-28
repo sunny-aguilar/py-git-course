@@ -80,6 +80,7 @@ The following is a list of files and their purpose:
 
 > git branch -d <branch-name>
 - deletes a branch
+- -D flag: forcibly delete
 
 > git merge <branch-name>
 - merges a branch into the master branch
