@@ -82,7 +82,7 @@ The following is a list of files and their purpose:
 - deletes a branch
 
 > git merge <branch-name>
-- merges a branch into another one
+- merges a branch into the master branch
 
 
 
