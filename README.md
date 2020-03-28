@@ -75,3 +75,8 @@ The following is a list of files and their purpose:
 > git checkout <branch-name>
 - change over to the new branch
 
+> git checkout -b <branch-name>
+- create a new branch and switch to it
+
+
+
