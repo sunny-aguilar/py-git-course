@@ -108,4 +108,6 @@ The following is a list of files and their purpose:
 > git pull
 - download remote repo changes
 
-
+> git config --global credential.helper cache
+- lets you store your credentials for a limited time
+- helps in preventing having to re-enter your credentials multiple times
