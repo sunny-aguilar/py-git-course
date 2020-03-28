@@ -85,6 +85,6 @@ The following is a list of files and their purpose:
 - merges a branch into the master branch
 
 > git log --graph --online
-- 
+- see git branches and merges on a text graph
 
 
