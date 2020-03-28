@@ -90,5 +90,6 @@ The following is a list of files and their purpose:
 
 > git log --graph --online
 - see git branches and merges on a text graph
+- shows a summarized view of the commit history for a repo
 
 
