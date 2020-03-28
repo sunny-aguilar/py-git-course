@@ -23,7 +23,8 @@ The following is a list of files and their purpose:
 > git config --global user.name "<name>"
 - set your name to associate with commits
 
->
+> git config --global user.email "<email>"
+
 
 > git diff <file>
 - Use this command to see changes in a file
