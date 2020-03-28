@@ -81,7 +81,7 @@ The following is a list of files and their purpose:
 > git branch -d <branch-name>
 - deletes a branch
 
-
+> git merge <branch-name>
 
 
 
