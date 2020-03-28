@@ -113,6 +113,10 @@ The following is a list of files and their purpose:
 - helps in preventing having to re-enter your credentials multiple times
 
 ### Working with Remotes
+Github names repote repos as "origin" when cloned
+> git remote -v
+- view configuations of remote
 
-
+> git remote show origin
+- provides even more info about remote repo
 
