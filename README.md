@@ -124,10 +124,6 @@ Github names repote repos as "origin" when cloned
 - see branches remote repo is currently tracking
 
 
-DElete me
-
-
-
 
 
 
