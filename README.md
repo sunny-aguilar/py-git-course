@@ -68,4 +68,4 @@ The following is a list of files and their purpose:
 - undoes a prior commit that wasnt the previous one
 - enter the 40 char alphanumeric string of the commit ID you want to revert to
 
-
+## Branching
