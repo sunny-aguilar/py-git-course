@@ -120,3 +120,11 @@ Github names repote repos as "origin" when cloned
 > git remote show origin
 - provides even more info about remote repo
 
+> git branch -r
+- see branches remote repo is currently tracking
+
+
+
+
+
+
