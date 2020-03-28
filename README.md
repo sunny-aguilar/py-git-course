@@ -123,7 +123,9 @@ Github names repote repos as "origin" when cloned
 > git branch -r
 - see branches remote repo is currently tracking
 
-
+> git fetch
+- see work done on remote branches
+- does not save to local repo
 
 
 
