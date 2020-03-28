@@ -88,7 +88,7 @@ The following is a list of files and their purpose:
 > git merge --abort
 - if there are merge conflicts, --abort can be used to abor the merge action
 
-> git log --graph --online
+> git log --graph --oneline
 - see git branches and merges on a text graph
 - shows a summarized view of the commit history for a repo
 
