@@ -99,9 +99,11 @@ The following is a list of files and their purpose:
 - shows a summarized view of the commit history for a repo
 
 ## Github Interactions
->git clone <url>
+> git clone <url>
 - clone a Github repo into your local machine
 
+> git push
+- uploads local repo commits to remote repository
 
 
 
