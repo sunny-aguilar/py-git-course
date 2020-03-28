@@ -85,7 +85,8 @@ The following is a list of files and their purpose:
 > git merge <branch-name>
 - merges a branch into the master branch
 
-
+> git merge --abort
+- if there are merge conflicts
 
 > git log --graph --online
 - see git branches and merges on a text graph
