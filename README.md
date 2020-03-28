@@ -78,5 +78,7 @@ The following is a list of files and their purpose:
 > git checkout -b <branch-name>
 - create a new branch and switch to it
 
+> git branch -d <branch-name>
+- deletes a branch
 
 
