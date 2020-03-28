@@ -105,6 +105,7 @@ The following is a list of files and their purpose:
 > git push
 - uploads local repo commits to remote repository
 
-
+> git pull
+- download remote repo changes
 
 
