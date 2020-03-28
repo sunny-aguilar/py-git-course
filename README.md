@@ -94,7 +94,7 @@ The following is a list of files and their purpose:
 
 ## Github Interactions
 >git clone <url>
-
+- clone a Github repo into your local machine
 
 
 
