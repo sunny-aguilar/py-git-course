@@ -143,7 +143,8 @@ git remote update
 > git rebase <branch>
 - branch is the branch to set as the new base
 - rebase is used to fast-forward changes on a branch (such as the master branch) while developing on other branches
-[rebase_1]: https://ibb.co/Dkn4nC9
+[]
+[rebase_1]: https://i.ibb.co/Gkj7j2W/rebase-1.png
 
 
 
