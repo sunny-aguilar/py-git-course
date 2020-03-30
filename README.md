@@ -143,6 +143,8 @@ git remote update
 > git rebase <branch>
 - branch is the branch to set as the new base
 - rebase is used to fast-forward changes on a branch (such as the master branch) while developing on other branches
+- will only work if changes were made in different parts of the file
+- ex: your currently in a feature branch and from here call 'git rebase master' to rebase branch to new base in master
 - ![rebase_1](https://i.ibb.co/y4Cq5NX/rebase-1.png "Prior to rebasing")      Prior base |-------------| New base       ![rebase_2](https://i.ibb.co/L9zmMfX/rebase-2.png "After rebasing")
 
 
