@@ -130,4 +130,6 @@ Github names repote repos as "origin" when cloned
 > git pull
 - fetches the remote copy of the current branch and automatically tries to merge it into the current local branch
 
+> git remote
+- list remote repost
 
