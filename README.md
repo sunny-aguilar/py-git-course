@@ -133,9 +133,6 @@ Github names repote repos as "origin" when cloned
 > git remote
 - list remote repost
 
-> git remote -v
-- list remote repos verbously
-
 > git remote show <name>
 - describes a single remote repo
 
