@@ -136,8 +136,8 @@ Github names repote repos as "origin" when cloned
 > git remote show <name>
 - describes a single remote repo
 
-
-
+git remote update
+- fetches the most up-to-date objects
 
 
 
