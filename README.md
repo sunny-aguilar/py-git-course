@@ -137,6 +137,6 @@ Github names repote repos as "origin" when cloned
 - list remote repos verbously
 
 > git remote show <name>
-
+- describes a single remote repo
 
 
