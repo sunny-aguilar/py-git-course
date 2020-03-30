@@ -133,3 +133,10 @@ Github names repote repos as "origin" when cloned
 > git remote
 - list remote repost
 
+> git remote -v
+- list remote repos verbously
+
+
+
+
+
