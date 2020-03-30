@@ -127,6 +127,7 @@ Github names repote repos as "origin" when cloned
 - see work done on remote branches
 - does not save to local repo
 
-
+> git pull
+- fetches the remote copy of the current branch and automatically tries to merge it into the current local branch
 
 
