@@ -140,8 +140,8 @@ git remote update
 - fetches the most up-to-date objects
 
 ### Solving Conflicts
-> git rebase
-- 
+> git rebase <branch>
+- branch is the branch to set as the new base
 
 
 
