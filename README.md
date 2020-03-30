@@ -147,5 +147,11 @@ git remote update
 - ex: your currently in a feature branch and from here call 'git rebase master' to rebase branch to new base in master
 - ![rebase_1](https://i.ibb.co/y4Cq5NX/rebase-1.png "Prior to rebasing")      Prior base |-------------| New base       ![rebase_2](https://i.ibb.co/L9zmMfX/rebase-2.png "After rebasing")
 
+> git push --delete origin <remote branch>
+- deletes remote branch
+
+> git branch -d <branch>
+- deletes local branch
+
 
 
