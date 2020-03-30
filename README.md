@@ -139,7 +139,9 @@ Github names repote repos as "origin" when cloned
 git remote update
 - fetches the most up-to-date objects
 
-
+### Solving Conflicts
+> git rebase
+- 
 
 
 
