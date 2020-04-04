@@ -11,7 +11,8 @@ def compare_strings(string1, string2):
   string2 = re.sub(punctuation, r"", string2)
 
   #DEBUG CODE GOES HERE
-  print(___)
+  print(string1)
+  print(string2)
 
   return string1 == string2
 
