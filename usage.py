@@ -14,8 +14,8 @@ def pow(n, k):
     return n * pow(n, k-1);
 
 
-let n = 35;
-let k = 0;
+n = 35;
+k = 0;
 let result = 0;
 
 # calculate probability that ten or fewer are active at the same time
