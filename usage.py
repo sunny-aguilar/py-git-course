@@ -8,10 +8,10 @@ def bang(n):
 
 
 # return n to the power of k
-# def pow(n, k):
-#     if k is 0:
-#         return 1;
-#     return n * pow(n, k-1);
+def pow(n, k):
+    if k is 0:
+        return 1;
+    return n * pow(n, k-1);
 
 
 n = 35;
