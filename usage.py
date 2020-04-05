@@ -19,13 +19,11 @@ for k in range(11):
 
 
 # modify so result is the probability that 11 or more people are
-# active at the same time
+# active at the same time00
 result = 1 - result
 
 # display result
 print(result)
-
-
 
 
 
