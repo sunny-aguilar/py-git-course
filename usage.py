@@ -2,7 +2,7 @@
 
 # return factorial of n
 def bang(n):
-    if (n == 0):
+    if n is 0:
 	    return 1;
     return n * bang(n-1);
 
