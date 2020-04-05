@@ -25,4 +25,3 @@ result = 1 - result
 # display result
 print(result)
 
-
