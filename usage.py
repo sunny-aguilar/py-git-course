@@ -1,18 +1,18 @@
 // Type JavaScript here and click "Run Code" or press Ctrl + s
 
 // return factorial of n
-function bang(n) {
+def bang(n):
   if (n == 0)
 		return 1;
 	return n * bang(n-1);
-}
+
 
 // return n to the power of k
-function pow(n, k) {
+def pow(n, k):
   if (k == 0)
     return 1;
   return n * pow(n, k-1);
-}
+
 
 let n = 35;
 let k = 0;
@@ -30,7 +30,7 @@ for (; k < 11; k++) {
 result = 1 - result;
 
 // display result
-console.log(result);
+print(result)
 
 
 
