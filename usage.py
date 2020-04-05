@@ -1,4 +1,4 @@
-# Type JavaScript here and click "Run Code" or press Ctrl + s
+#!/usr/bin/env python3
 
 # return factorial of n
 def bang(n):
@@ -7,15 +7,8 @@ def bang(n):
     return n * bang(n-1)
 
 
-# return n to the power of k
-def pow(n, k):
-    if k is 0:
-        return 1
-    return n * pow(n, k-1)
-
-
-n = 35
-result = 0
+n = 35          # number of users
+result = 0      # probability result
 
 # calculate probability that ten or fewer are active at the same time
 for k in range(11):
