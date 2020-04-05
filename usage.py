@@ -26,4 +26,3 @@ result = 1 - result
 print(result)
 
 
-
