@@ -9,7 +9,7 @@ def bang(n):
 
 # return n to the power of k
 def pow(n, k):
-    if (k == 0):
+    if (k == 0:
         return 1;
     return n * pow(n, k-1);
 
