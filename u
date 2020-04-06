@@ -8,7 +8,7 @@
 function push_commit()
 {
     #commit changes
-    git commit -am git
+    git commit -am git.course
     # push to github
     git push
 }
