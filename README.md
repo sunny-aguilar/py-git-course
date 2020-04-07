@@ -166,5 +166,6 @@ When we're dealing with an issue that is tricky to debug, we want to have a clea
 - this tool outputs the average time for a website to respond by sending n request (here n is 500)
 
 > time <executable file>
+- used to measure the time to execute a file
 
 
