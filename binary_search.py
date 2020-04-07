@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-def find_item(list.sort(), item):
+def find_item(list, item):
     #Returns True if the item is in the list, False if not.
     if len(list) == 0:
         return False
@@ -8,9 +8,10 @@ def find_item(list.sort(), item):
     middle = len(list)//2
     if list[middle] == item:
         return True
-    print("middle: ", list[middle], " ", middle)  
+     
     #Is the item in the first half of the list? 
     if item < list[middle]:
+        print("middle: ", list[middle], " ", middle) 
         #Call the function with the first half of the list
         return find_item(list[:middle], item)
     else:
