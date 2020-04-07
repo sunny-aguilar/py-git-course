@@ -162,3 +162,5 @@ When we're dealing with an issue that is tricky to debug, we want to have a clea
 
 ### Understanding Slowness
 > ab -n 500 www.google.com/
+- this tool outputs the average time for a website to respond by sending n request (here n is 500)
+
