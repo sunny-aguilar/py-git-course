@@ -8,7 +8,7 @@ def find_item(list, item):
     middle = len(list)//2
     if list[middle] == item:
         return True
-    print("middle: ", list[middle])  
+    print("middle: ", list[middle], " ", middle)  
     #Is the item in the first half of the list? 
     if item < list[middle]:
         #Call the function with the first half of the list
