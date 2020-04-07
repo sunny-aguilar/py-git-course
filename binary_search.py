@@ -4,7 +4,8 @@ def find_item(list, item):
     if len(list) == 0:
         return False
     print(list)
-    print(list.sort())
+    new_list = list.sort()
+    print(new_list)
     #Is the item in the center of the list?
     middle = len(list)//2
     
