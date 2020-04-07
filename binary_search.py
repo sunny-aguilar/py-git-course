@@ -6,12 +6,12 @@ def find_item(list, item):
 
     #Is the item in the center of the list?
     middle = len(list)//2
+    print(list)
     if list[middle] == item:
         return True
      
     #Is the item in the first half of the list? 
     if item < list[middle]:
-        print("middle: ", list[middle], " ", middle) 
         #Call the function with the first half of the list
         return find_item(list[:middle], item)
     else:
