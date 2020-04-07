@@ -3,7 +3,7 @@ def find_item(list, item):
     #Returns True if the item is in the list, False if not.
     if len(list) == 0:
         return False
-    print(list.sort)
+    print(list)
     #Is the item in the center of the list?
     middle = len(list)//2
     
