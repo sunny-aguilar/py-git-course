@@ -5,7 +5,6 @@ def find_item(list, item):
         return False
     list.sort()
     list.sort()
-    list.sort()
     #Sort the list
 
     #Is the item in the center of the list?
