@@ -6,17 +6,17 @@ def find_item(list, item):
 
     #Is the item in the center of the list?
     middle = len(list)//2
-    lists = list.sort()
-    if lists[middle] == item:
+    
+    if list[middle] == item:
         return True
      
     #Is the item in the first half of the list? 
-    if item < lists[middle]:
+    if item < list[middle]:
         #Call the function with the first half of the list
-        return find_item(lists[:middle], item)
+        return find_item(list[:middle], item)
     else:
         #Call the function with the second half of the list
-        return find_item(lists[middle+1:], item)
+        return find_item(list[middle+1:], item)
 
     return False
 
