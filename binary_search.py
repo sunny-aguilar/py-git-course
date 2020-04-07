@@ -3,7 +3,7 @@ def find_item(list, item):
     #Returns True if the item is in the list, False if not.
     if len(list) == 0:
         return False
-
+    print(list)
     #Is the item in the center of the list?
     middle = len(list)//2
     
@@ -22,7 +22,7 @@ def find_item(list, item):
 
 #Do not edit below this line - This code helps check your work!
 list_of_names = ["Parker", "Drew", "Cameron", "Logan", "Alex", "Chris", "Terry", "Jamie", "Jordan", "Taylor"]
-print(list_of_names.sort())
+
 print(find_item(list_of_names, "Alex")) # True
 print(find_item(list_of_names, "Andrew")) # False
 print(find_item(list_of_names, "Drew")) # True
