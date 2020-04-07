@@ -9,3 +9,8 @@ for root, dirs, files in os.walk(src):
     print(files)
 
 subprocess.call(["rsync", "-arq", src, dest])
+
+
+# dir path: student/data
+# dir path: student/scripts
+
