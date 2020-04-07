@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-def find_item(list, item):
+def find_item(list.sort(), item):
     #Returns True if the item is in the list, False if not.
     if len(list) == 0:
         return False
