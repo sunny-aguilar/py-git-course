@@ -5,6 +5,7 @@ def find_item(list, item):
         return False
     print(list)
     new_list = list.copy()
+    new_list.sort()
     print(new_list)
     #Is the item in the center of the list?
     middle = len(list)//2
