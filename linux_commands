@@ -13,6 +13,7 @@ Sandros-MBP:py-git-course sandroaguilar$ diff diff_me diff_me_2
 
 
 
+
 Flags:
 -u flag provides a different output format that makes it easier to
 spot what was added and removed
