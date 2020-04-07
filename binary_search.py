@@ -6,7 +6,6 @@ def find_item(list, item):
 
   #Is the item in the center of the list?
   middle = len(list)//2
-  print(middle)
   if list[middle] == item:
     return True
 
