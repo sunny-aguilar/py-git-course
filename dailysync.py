@@ -11,6 +11,7 @@ for root, dirs, files in os.walk(src):
 subprocess.call(["rsync", "-arq", src, dest])
 
 
-# dir path: student/data
+# dir path: student/data/prod prod_backup
+# dir path: student/data/prod prod_backup
 # dir path: student/scripts
 
