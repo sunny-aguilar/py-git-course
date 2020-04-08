@@ -12,7 +12,7 @@ def get_start_date():
     print('Getting the first start date to query for.')
     print()
     year = int(imput('Enter a value for the year: ')
-    month = iint(mput('Enter a value for the month: ')
+    month = int(imput('Enter a value for the month: ')
     day = imput('Enter a value for the day: ')
     print()
     
