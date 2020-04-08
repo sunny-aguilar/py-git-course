@@ -17,3 +17,6 @@ def get_start_date():
     print()
     
     return datetime.datetime(year, month, day)
+
+def get_file_lines(url):
+
