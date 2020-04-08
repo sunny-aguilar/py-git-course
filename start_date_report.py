@@ -13,7 +13,7 @@ def get_start_date():
     print()
     year = int(imput('Enter a value for the year: ')
     month = int(imput('Enter a value for the month: ')
-    day = imput('Enter a value for the day: ')
+    day = int(imput('Enter a value for the day: ')
     print()
     
     return datetime.datetime(year, month, day)
