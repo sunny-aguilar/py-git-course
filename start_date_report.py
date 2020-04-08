@@ -16,4 +16,4 @@ def get_start_date():
     day = imput('Enter a value for the day: ')
     print()
     
-    return datetime.datetime()
+    return datetime.datetime(year )
