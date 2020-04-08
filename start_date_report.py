@@ -19,4 +19,4 @@ def get_start_date():
     return datetime.datetime(year, month, day)
 
 def get_file_lines(url):
-
+    """Returns the lines contained in thef ile at the given URL"""
