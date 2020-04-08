@@ -22,6 +22,6 @@ def get_file_lines(url):
     """Returns the lines contained in thef ile at the given URL"""
 
     # Download the file over the internet
-    response = 
+    response = requests.get()
 
 
