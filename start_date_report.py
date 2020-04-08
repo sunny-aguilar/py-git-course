@@ -10,5 +10,5 @@ def get_start_date():
 
     print()
     print('Getting the first start date to query for.')
-
+    print()
 
