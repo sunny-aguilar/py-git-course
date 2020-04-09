@@ -5,6 +5,7 @@ import requests
  
 FILE_URL="http://marga.com.ar/employees-with-date.csv" 
  
+
 def get_start_date(): 
     """Interactively get the start date to query for.""" 
  
@@ -12,32 +13,35 @@ def get_start_date():
     print('Getting the first start date to query for.') 
     print() 
     print('The date must be greater than Jan 1st, 2018') 
-    year = int(input('Enter a value for the year: ')) 
-    month = int(input('Enter a value for the month: ')) 
-    day = int(input('Enter a value for the day: ')) 
+    year = 2020
+    month = 1
+    day = 13
     print() 
  
     return datetime.datetime(year, month, day) 
  
-def get_file_lines(res): 
+
+def get_file_lines(response): 
     """Returns the lines contained in the file at the given URL""" 
  
     # Download the file over the internet 
     #response = requests.get(FILE_URL, stream=True) 
-    #response = res 
+    #response = res
  
     # Decode all lines into strings 
     lines = [] 
-    for line in res.iter_lines(): 
+    for line in response.iter_lines(): 
         lines.append(line.decode("UTF-8")) 
-    print("END REPEAT") 
     return lines 
  
-def get_same_or_newer(response, start_date): 
+
+def get_same_or_newer(response, start_date):
+#def get_same_or_newer(start_date):
     """Returns the employees that started on the given date, or the closest one.""" 
-    res = response 
-    print(res) 
-    data = get_file_lines(res) 
+
+    #response = requests.get(FILE_URL, stream=True)
+
+    data = get_file_lines(response) 
     reader = csv.reader(data[1:]) 
  
     # We want all employees that started at the same date or the closest newer 
@@ -69,22 +73,23 @@ def get_same_or_newer(response, start_date):
  
     return min_date, min_date_employees 
  
+
 def list_newer(start_date): 
-    response = requests.get(FILE_URL, stream=True) 
-    print("REACHED 1")  
+    # MY EDIT
+    response = requests.get(FILE_URL, stream=True)
+
     while start_date < datetime.datetime.today(): 
         start_date, employees = get_same_or_newer(response, start_date) 
-        print("Reached 3") 
+        # start_date, employees = get_same_or_newer(start_date) 
         print("Started on {}: {}".format(start_date.strftime("%b %d, %Y"), employees)) 
  
         # Now move the date to the next one 
         start_date = start_date + datetime.timedelta(days=1) 
  
  
-def main(): 
-    start_date = get_start_date() 
+def main():
+    start_date = get_start_date()
     list_newer(start_date) 
  
 if __name__ == "__main__": 
     main()
-    
