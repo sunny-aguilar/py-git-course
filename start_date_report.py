@@ -38,9 +38,6 @@ def get_file_lines(response):
 def get_same_or_newer(data, start_date):
     """Returns the employees that started on the given date, or the closest one.""" 
 
-    #response = requests.get(FILE_URL, stream=True)
-
-    #data = get_file_lines(response) 
     reader = csv.reader(data[1:]) 
  
     # We want all employees that started at the same date or the closest newer 
