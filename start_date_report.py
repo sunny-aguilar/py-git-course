@@ -26,7 +26,6 @@ def get_file_lines(response):
  
     # Download the file over the internet 
     #response = requests.get(FILE_URL, stream=True) 
-    #response
  
     # Decode all lines into strings 
     lines = [] 
