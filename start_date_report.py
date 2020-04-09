@@ -35,13 +35,14 @@ def get_file_lines(response):
     return lines 
  
 
-def get_same_or_newer(response, start_date):
+def get_same_or_newer(data, start_date):
+# def get_same_or_newer(response, start_date):
 #def get_same_or_newer(start_date):
     """Returns the employees that started on the given date, or the closest one.""" 
 
     #response = requests.get(FILE_URL, stream=True)
 
-    data = get_file_lines(response) 
+    #data = get_file_lines(response) 
     reader = csv.reader(data[1:]) 
  
     # We want all employees that started at the same date or the closest newer 
@@ -78,8 +79,15 @@ def list_newer(start_date):
     # MY EDIT
     response = requests.get(FILE_URL, stream=True)
 
+    lines = [] 
+    for line in response.iter_lines(): 
+        lines.append(line.decode("UTF-8")) 
+
+    data = lines
+
+
     while start_date < datetime.datetime.today(): 
-        start_date, employees = get_same_or_newer(response, start_date) 
+        start_date, employees = get_same_or_newer(data, start_date) 
         # start_date, employees = get_same_or_newer(start_date) 
         print("Started on {}: {}".format(start_date.strftime("%b %d, %Y"), employees)) 
  
