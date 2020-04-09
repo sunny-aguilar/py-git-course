@@ -23,7 +23,7 @@ def get_start_date():
 
 def get_file_lines(response): 
     """Returns the lines contained in the file at the given URL""" 
- 
+
     # Decode all lines into strings 
     lines = [] 
     for line in response.iter_lines(): 
