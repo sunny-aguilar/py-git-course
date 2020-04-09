@@ -24,7 +24,6 @@ def get_start_date():
 def get_file_lines(response): 
     """Returns the lines contained in the file at the given URL""" 
  
-    # Download the file over the internet 
  
     # Decode all lines into strings 
     lines = [] 
