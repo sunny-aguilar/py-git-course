@@ -83,7 +83,6 @@ def list_newer(start_date):
 
     while start_date < datetime.datetime.today(): 
         start_date, employees = get_same_or_newer(data, start_date) 
-        # start_date, employees = get_same_or_newer(start_date) 
         print("Started on {}: {}".format(start_date.strftime("%b %d, %Y"), employees)) 
  
         # Now move the date to the next one 
