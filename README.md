@@ -176,7 +176,7 @@ Puppet - industry standard for configuration managemen.
 
 
 ## Misc
-> nc 
+> nc (netcat)
 > nc google.com 80
 - sends an http request over
 
