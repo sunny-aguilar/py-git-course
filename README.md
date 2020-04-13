@@ -177,5 +177,5 @@ Puppet - industry standard for configuration managemen.
 
 ## Misc
 > nc google.com 80
-- sends
+- sends an
 
