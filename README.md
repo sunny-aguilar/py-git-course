@@ -173,3 +173,8 @@ When we're dealing with an issue that is tricky to debug, we want to have a clea
 Puppet - industry standard for configuration managemen.
 
 
+
+
+
+
+
