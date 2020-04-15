@@ -175,8 +175,10 @@ Puppet - industry standard for configuration managemen.
 
 
 
-## Misc
+### Misc
 > nc (netcat)
 > usage: nc google.com 80
 - sends an http request over the command prompt
 
+
+### Cloud Configuration
