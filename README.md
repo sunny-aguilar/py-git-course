@@ -177,4 +177,3 @@ Puppet - industry standard for configuration managemen.
 
 
 ### Cloud Configuration
-
