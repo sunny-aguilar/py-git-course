@@ -172,7 +172,6 @@ When we're dealing with an issue that is tricky to debug, we want to have a clea
 ## Configuration Management and the Cloud
 Puppet - industry standard for configuration managemen.
 
-
 ### Misc
 > nc (netcat)
 > usage: nc google.com 80
