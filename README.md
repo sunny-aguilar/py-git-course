@@ -155,7 +155,6 @@ git remote update
 
 
 
-
 ## Troubleshooting and Debugging Techniques
 ### Creating a Reproduction Case
 When we're dealing with an issue that is tricky to debug, we want to have a clear reproduction case for the problem.
